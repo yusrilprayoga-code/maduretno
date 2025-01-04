@@ -7,22 +7,22 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const carouselItems = [
   {
-    image: "https://images.unsplash.com/photo-1615615228002-890bb61cac6e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Nike React",
-    title: "Nike React",
-    description: "Rewriting sport's playbook for billions of athletes",
+    image: "/images/posyandu-anggrek.jpg",
+    alt: "Posyandu Anggrek",
+    title: "Posyandu Anggrek",
+    description: "Posyandu Anggrek is a health center for children",
   },
   {
-    image: "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "CoolApps",
-    title: "CoolApps",
-    description: "From mobile apps to gaming consoles",
+    image: "/images/MMD.JPG",
+    alt: "Musyawarah Masyarakat Desa",
+    title: "Musyawarah Masyarakat Desa",
+    description: "Musyawarah Masyarakat Desa is a village meeting",
   },
   {
-    image: "https://images.unsplash.com/photo-1629666451094-8908989cae90?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Grumpy",
-    title: "Grumpy",
-    description: "Bringing Art to everything",
+    image: "/images/posyandu-anggrek.jpg",
+    alt: "Posyandu Anggrek",
+    title: "Posyandu Anggrek",
+    description: "Posyandu Anggrek is a health center for children",
   },
 ]
 

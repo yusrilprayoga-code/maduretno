@@ -7,96 +7,96 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    title: "Musyawarah Masyarakat Desa 1",
+    link: "/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "/images/MMD.JPG",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
+    title: "Posyandu Anggrek 1",
+    link: "/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "/images/posyandu-anggrek.jpg",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    title: "Posyandu Anggrek 2",
+    link: "/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
-  },
-
-  {
-    title: "Editorially",
-    link: "https://editorially.org",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
-  },
-  {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-  },
-  {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+      "/images/posyandu-anggrek.jpg",
   },
 
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
+    title: "Musyawarah Masyarakat Desa 2",
+    link: "/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+      "/images/MMD.JPG",
   },
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    title: "Posyandu Anggrek 3",
+    link: "/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+      "/images/posyandu-anggrek.jpg",
   },
   {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    title: "Musyawarah Masyarakat Desa 3",
+    link: "/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+      "/images/MMD.JPG",
   },
 
   {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
+    title: "Posyandu Anggrek 4",
+    link: "/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+      "/images/posyandu-anggrek.jpg",
   },
   {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
+    title: "Musyawarah Masyarakat Desa 4",
+    link: "/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+      "/images/MMD.JPG",
   },
   {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
+    title: "Posyandu Anggrek 5",
+    link: "/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
+      "/images/posyandu-anggrek.jpg",
   },
   {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
+    title: "Musyawarah Masyarakat Desa 5",
+    link: "/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+      "/images/MMD.JPG",
+  },
+  {
+    title: "Posyandu Anggrek 6",
+    link: "/",
+    thumbnail:
+      "/images/posyandu-anggrek.jpg",
+  },
+
+  {
+    title: "Musyawarah Masyarakat Desa 6",
+    link: "/",
+    thumbnail:
+      "/images/MMD.JPG",
+  },
+  {
+    title: "Posyandu Anggrek 7",
+    link: "/",
+    thumbnail:
+      "/images/posyandu-anggrek.jpg",
+  },
+  {
+    title: "Musyawarah Masyarakat Desa 7",
+    link: "/",
+    thumbnail:
+      "/images/MMD.JPG",
+  },
+  {
+    title: "Posyandu Anggrek 8",
+    link: "/",
+    thumbnail:
+      "/images/posyandu-anggrek.jpg",
   },
 ];
