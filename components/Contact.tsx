@@ -14,6 +14,7 @@ const Contact = () => {
         <div className="aspect-w-16 aspect-h-6 lg:aspect-h-14 overflow-hidden bg-gray-100 rounded-2xl ">
           <GoogleMap
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15813.218409936604!2d109.64267514944049!3d-7.757483614745609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7acc0543a8c0a7%3A0x5027a76e3553d50!2sMaduretno%2C%20Kec.%20Buluspesantren%2C%20Kabupaten%20Kebumen%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1735963593847!5m2!1sid!2sid"
+            height={350}
             className="rounded-lg"
           />
         </div>
