@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="max-w-7xl px-4 lg:px-6 lg:px-8 py-12 lg:py-24 mx-auto">
       <div className="mb-6 sm:mb-10 max-w-2xl text-center mx-auto">
         <h2 className="font-medium text-black text-2xl sm:text-4xl ">
-          Contacts
+          Kontak Kami
         </h2>
       </div>
 
@@ -22,7 +22,9 @@ const Contact = () => {
 
         <div className="space-y-8 lg:space-y-16">
           <div>
-            <h3 className="mb-5 font-semibold text-black ">Our address</h3>
+            <h3 className="mb-5 font-semibold text-black ">
+                Alamat Desa
+            </h3>
 
             {/* <!-- Grid --> */}
             <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12">
@@ -44,11 +46,13 @@ const Contact = () => {
                 </svg>
 
                 <div className="grow">
-                  <p className="text-sm text-gray-600 ">United Kingdom</p>
+                  <p className="text-sm text-gray-600 ">
+                    Maduretno
+                  </p>
                   <address className="mt-1 text-black not-italic ">
-                    300 Bath Street, Tay House
+                    Maduretno, Kec. Buluspesantren, 
                     <br />
-                    Glasgow G2 4JR
+                    Kabupaten Kebumen, Jawa Tengah
                   </address>
                 </div>
               </div>
@@ -57,7 +61,9 @@ const Contact = () => {
           </div>
 
           <div>
-            <h3 className="mb-5 font-semibold text-black ">Our contacts</h3>
+            <h3 className="mb-5 font-semibold text-black ">
+                Kontak Kami
+            </h3>
 
             {/* <!-- Grid --> */}
             <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12">
@@ -108,13 +114,15 @@ const Contact = () => {
                 </svg>
 
                 <div className="grow">
-                  <p className="text-sm text-gray-600 ">Call us</p>
+                  <p className="text-sm text-gray-600 ">
+                    Nomor Telepon
+                  </p>
                   <p>
                     <a
                       className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                       href="mailto:example@site.so"
                     >
-                      +44 222 777-000
+                      (0287) 383349
                     </a>
                   </p>
                 </div>

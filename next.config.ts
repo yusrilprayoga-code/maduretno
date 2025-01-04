@@ -14,6 +14,9 @@ const nextConfig: NextConfig = {
         hostname: "cdn.digitaldesa.com",
         pathname: "/**",
       },
+      {
+        hostname: "aceternity.com",
+      }
     ],
   },
 };

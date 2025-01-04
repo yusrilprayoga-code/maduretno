@@ -1,11 +1,13 @@
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
+import { HeroParallaxDemo } from "@/components/parallax";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen pb-20 gap-16 sm:p-12 font-[family-name:var(--font-geist-sans)]">
       <NavBar />
+      <HeroParallaxDemo />
       <Hero />
       <footer className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10">
