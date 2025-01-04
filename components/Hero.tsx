@@ -3,6 +3,7 @@ import Image from "next/image";
 import Work from "./Work";
 import Contact from "./Contact";
 import HeroCarousel from "./Carousel";
+import Profile from "./Profile";
 
 const Hero = () => {
   return (
@@ -148,6 +149,7 @@ const Hero = () => {
       {/* <!-- End Clients --> */}
 
       <Work />
+      <Profile />
       <Contact />
     </main>
   );
