@@ -1,5 +1,6 @@
 import NavBar from "@/components/NavBar"
 import GoogleMap from "@/components/GoogleMap"
+import Footer from "@/components/Footer"
 
 const MapPage = () => {
   return (
@@ -11,6 +12,7 @@ const MapPage = () => {
           <GoogleMap width="1200" height="600" />
         </div>
       </main>
+      <Footer />
     </div>
   )
 }
