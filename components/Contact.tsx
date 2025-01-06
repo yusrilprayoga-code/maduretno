@@ -91,7 +91,7 @@ const Contact = () => {
                       className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-none focus:before:bg-black "
                       href="mailto:example@site.so"
                     >
-                      hello@example.so
+                      desamaduretno10@gmail.com
                     </a>
                   </p>
                 </div>

@@ -3,6 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { Menu, X } from 'lucide-react'
 
 interface NavItem {
@@ -13,12 +14,13 @@ interface NavItem {
 const navItems: NavItem[] = [
   { label: "Beranda", href: "/" },
   { label: "Profile Desa", href: "/profile" },
-  { label: "Infografis", href: "#" },
+  { label: "Infografis", href: "/infografis" },
   { label: "Listing", href: "/listing" }
 ]
 
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const pathname = usePathname()
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
@@ -95,7 +97,9 @@ export default function NavBar() {
             {navItems.map((item) => (
               <div key={item.href}>
                 <Link
-                  className="inline-block text-black hover:text-gray-600 hover:underline hover:underline-offset-4"
+                  className={`inline-block text-black hover:text-gray-600 hover:underline hover:underline-offset-4 ${
+                    pathname === item.href ? 'font-bold underline underline-offset-4' : ''
+                  }`}
                   href={item.href}
                 >
                   {item.label}
