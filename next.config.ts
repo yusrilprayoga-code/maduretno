@@ -23,6 +23,9 @@ const nextConfig: NextConfig = {
       },
       {
         hostname: "maduretno.kec-buluspesantren.kebumenkab.go.id",
+      },
+      {
+        hostname: "assets.aceternity.com"
       }
     ],
   },

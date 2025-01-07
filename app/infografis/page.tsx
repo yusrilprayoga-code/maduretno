@@ -164,6 +164,8 @@ const page = () => {
 
         <Image src="/images/education.png" alt="pendidikan" className="rounded-xl mt-2 mb-2" width={1200} height={320} />
 
+        <Image src="/images/pendidikan.png" alt="pendidikan" className="rounded-xl mt-2 mb-2" width={1200} height={320} />
+
         <p className="text-sm text-gray-600 mt-2 md:text-lg">
           Desa Maduretno memiliki masyarakat yang rata-rata lulusan SMA
           baru-baru ini dan bisa dibilang memiliki minat untuk bersekolah
