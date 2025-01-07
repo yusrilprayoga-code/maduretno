@@ -1,30 +1,30 @@
-'use client'
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { Menu, X } from 'lucide-react'
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Menu, X } from "lucide-react";
 
 interface NavItem {
-  label: string
-  href: string
+  label: string;
+  href: string;
 }
 
 const navItems: NavItem[] = [
   { label: "Beranda", href: "/" },
   { label: "Profile Desa", href: "/profile" },
   { label: "Infografis", href: "/infografis" },
-  { label: "Listing", href: "/listing" }
-]
+  { label: "Listing", href: "/listing" },
+];
 
 export default function NavBar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const pathname = usePathname()
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   return (
     <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full py-7">
@@ -53,25 +53,32 @@ export default function NavBar() {
         </div>
 
         <div className="flex items-center gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-3">
-          <a 
-            href="https://maduretno.kec-buluspesantren.kebumenkab.go.id/" 
-            target="_blank" 
+          <a
+            href="https://maduretno.kec-buluspesantren.kebumenkab.go.id/"
+            target="_blank"
             rel="noreferrer"
             className="hidden sm:block"
           >
             <button
               type="button"
-              className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-gray-200 text-black hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+              className="py-2 px-3 inline-flex items-center gap-x-2 text-xs font-medium rounded-xl border border-gray-200 text-black hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
             >
               Website Resmi
             </button>
           </a>
-          <button
-            type="button"
-            className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent bg-lime-400 text-black hover:bg-lime-500 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-lime-500"
+          <a
+            href="https://maduretno.kec-buluspesantren.kebumenkab.go.id/index.php/layanan/masuk"
+            target="_blank"
+            rel="noreferrer"
+            className="hidden sm:block"
           >
-            Contact Us
-          </button>
+            <button
+              type="button"
+              className="py-2 px-3 inline-flex items-center gap-x-2 text-xs font-medium rounded-xl border border-transparent bg-lime-400 text-black hover:bg-lime-500 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-lime-500"
+            >
+              Layanan Mandiri
+            </button>
+          </a>
 
           <button
             type="button"
@@ -90,7 +97,7 @@ export default function NavBar() {
 
         <div
           className={`${
-            isMenuOpen ? 'block' : 'hidden'
+            isMenuOpen ? "block" : "hidden"
           } overflow-hidden transition-all duration-300 basis-full grow md:block md:w-auto md:basis-auto md:order-2 md:col-span-6`}
         >
           <div className="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:justify-center md:items-center md:gap-y-0 md:gap-x-7 md:mt-0">
@@ -98,7 +105,9 @@ export default function NavBar() {
               <div key={item.href}>
                 <Link
                   className={`inline-block text-black hover:text-gray-600 hover:underline hover:underline-offset-4 ${
-                    pathname === item.href ? 'font-bold underline underline-offset-4' : ''
+                    pathname === item.href
+                      ? "font-bold underline underline-offset-4"
+                      : ""
                   }`}
                   href={item.href}
                 >
@@ -110,6 +119,5 @@ export default function NavBar() {
         </div>
       </nav>
     </header>
-  )
+  );
 }
-
