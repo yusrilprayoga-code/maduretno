@@ -7,7 +7,7 @@ export function WorldMapDemo() {
     <div className="py-10 dark:bg-black bg-white w-full">
       <div className="max-w-7xl mx-auto text-center">
         <h1 className="font-bold text-xl md:text-4xl dark:text-white text-black mb-4">
-         Desa{" "}
+          Desa{" "}
           <span className="text-neutral-400">
             {"Maduretno".split("").map((letter, idx) => (
               <motion.span
@@ -22,16 +22,21 @@ export function WorldMapDemo() {
             ))}
           </span>
         </h1>
-        <p className="text-sm md:text-lg text-neutral-500 max-w-2xl mx-auto py-4">
+        <p className="text-sm sm:text-base md:text-lg text-neutral-500 max-w-2xl mx-auto py-2 sm:py-4 px-4 sm:px-0 leading-relaxed sm:leading-normal">
           Desa Maduretno berada di Kecamatan Buluspesantren, Kabupaten Kebumen,
           Provinsi Jawa Tengah. Berdasarkan data dari Badan Pusat Statistik dan
-          sumber lainnya: • Luas Desa Maduretno adalah sekitar 2,6 km² (260
-          hektar). • Secara geografis, wilayah Kecamatan Buluspesantren
-          merupakan bagian dari dataran rendah dengan beberapa perbukitan,
-          sesuai dengan karakteristik wilayah Kebumen. • Desa ini terletak di
-          dekat Sungai Lukulo, sungai besar di Kebumen yang mengalir sepanjang
-          sekitar 68,5 km melintasi Kabupaten Kebumen dan sebagian wilayah
-          Kabupaten Wonosobo.
+          sumber lainnya:
+          <br className="hidden sm:block" />
+          <br className="hidden sm:block" />
+          • Luas Desa Maduretno adalah sekitar 2,6 km² (260 hektar).
+          <br className="hidden sm:block" />
+          • Secara geografis, wilayah Kecamatan Buluspesantren merupakan bagian
+          dari dataran rendah dengan beberapa perbukitan, sesuai dengan
+          karakteristik wilayah Kebumen.
+          <br className="hidden sm:block" />• Desa ini terletak di dekat Sungai
+          Lukulo, sungai besar di Kebumen yang mengalir sepanjang sekitar 68,5
+          km melintasi Kabupaten Kebumen dan sebagian wilayah Kabupaten
+          Wonosobo.
         </p>
       </div>
       <WorldMap
