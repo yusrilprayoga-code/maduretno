@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 text-gray-600 py-12 px-4 sm:px-6 lg:px-8">
+    <footer className=" text-gray-600 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
@@ -68,7 +68,6 @@ const Footer = () => {
                 <a href="https://maduretno.kec-buluspesantren.kebumenkab.go.id/index.php/web/artikel/7/29" className="hover:text-blue-600 transition-colors">
                   Kontak Kami
                 </a>
-                <span className="ml-2 text-blue-600 text-sm">— We're hiring</span>
               </li>
               <li>
                 <a href="https://maduretno.kec-buluspesantren.kebumenkab.go.id/index.php/layanan/statistik" className="hover:text-blue-600 transition-colors">
