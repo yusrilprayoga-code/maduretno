@@ -36,7 +36,7 @@ const TeamSection = () => {
         <div className="text-center">
           <Image
             className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
             alt="Avatar"
             width={320}
             height={320}
@@ -54,7 +54,7 @@ const TeamSection = () => {
         <div className="text-center">
           <Image
             className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
             alt="Avatar"
             width={320}
             height={320}
@@ -72,7 +72,7 @@ const TeamSection = () => {
         <div className="text-center">
           <Image
             className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
             alt="Avatar"
             width={320}
             height={320}
@@ -90,7 +90,7 @@ const TeamSection = () => {
         <div className="text-center">
           <Image
             className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
             alt="Avatar"
             width={320}
             height={320}
@@ -108,7 +108,7 @@ const TeamSection = () => {
         <div className="text-center">
           <Image
             className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://images.unsplash.com/photo-1624224971170-2f84fed5eb5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
             alt="Avatar"
             height={320}
             width={320}
@@ -126,7 +126,7 @@ const TeamSection = () => {
         <div className="text-center">
           <Image
             className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
             alt="Avatar"
             width={320}
             height={320}
@@ -144,7 +144,7 @@ const TeamSection = () => {
         <div className="text-center">
           <Image
             className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://images.unsplash.com/photo-1514222709107-a180c68d72b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
             alt="Avatar"
             width={320}
             height={320}
@@ -162,7 +162,7 @@ const TeamSection = () => {
         <div className="text-center">
           <Image
             className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://images.unsplash.com/photo-1602452920335-6a132309c7c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
             alt="Avatar"
             width={320}
             height={320}

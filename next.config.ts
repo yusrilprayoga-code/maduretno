@@ -26,6 +26,12 @@ const nextConfig: NextConfig = {
       },
       {
         hostname: "assets.aceternity.com"
+      },
+      {
+        hostname: "cdn.pixabay.com"
+      },
+      {
+        hostname: "kelilingpesonawisata.travel.blog"
       }
     ],
   },
