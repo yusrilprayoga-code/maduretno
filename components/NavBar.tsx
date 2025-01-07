@@ -48,7 +48,7 @@ export default function NavBar() {
                 priority
               />
             </div>
-            <span className="hidden sm:inline">Maduretno</span>
+            <span className="text-sm md:text-base lg:text-xl">Maduretno</span>
           </Link>
         </div>
 
