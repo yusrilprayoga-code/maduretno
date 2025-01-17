@@ -43,10 +43,10 @@ const TeamSection = () => {
           />
           <div className="mt-2 sm:mt-4">
             <h3 className="text-sm font-medium text-gray-800 sm:text-base lg:text-lg">
-              Amil Evara
+              Slamet
             </h3>
             <p className="text-xs text-gray-600 sm:text-sm lg:text-base">
-              UI/UX Designer
+              Sekretaris Desa
             </p>
           </div>
         </div>
@@ -61,10 +61,11 @@ const TeamSection = () => {
           />
           <div className="mt-2 sm:mt-4">
             <h3 className="text-sm font-medium text-gray-800 sm:text-base lg:text-lg">
-              Ebele Egbuna
+              Sundariyah
             </h3>
             <p className="text-xs text-gray-600 sm:text-sm lg:text-base">
-              Support Consultant
+              Kepala Urusan <br />
+              Tata Usaha & Umum
             </p>
           </div>
         </div>
@@ -79,10 +80,11 @@ const TeamSection = () => {
           />
           <div className="mt-2 sm:mt-4">
             <h3 className="text-sm font-medium text-gray-800 sm:text-base lg:text-lg">
-              Maria Powers
+              Widotomo
             </h3>
             <p className="text-xs text-gray-600 sm:text-sm lg:text-base">
-              Director of sales
+              Kepala Urusan Keuangan <br />
+              Keuangan
             </p>
           </div>
         </div>
@@ -97,10 +99,11 @@ const TeamSection = () => {
           />
           <div className="mt-2 sm:mt-4">
             <h3 className="text-sm font-medium text-gray-800 sm:text-base lg:text-lg">
-              Delia Pawelke
+              Badriyono
             </h3>
             <p className="text-xs text-gray-600 sm:text-sm lg:text-base">
-              Front-end Developer
+              Kepala Urusan <br />
+              Perencanaan
             </p>
           </div>
         </div>
@@ -115,10 +118,11 @@ const TeamSection = () => {
           />
           <div className="mt-2 sm:mt-4">
             <h3 className="text-sm font-medium text-gray-800 sm:text-base lg:text-lg">
-              Tom Lowry
+              Parwono
             </h3>
             <p className="text-xs text-gray-600 sm:text-sm lg:text-base">
-              UI/UX Designer
+              Kepala Seksi <br />
+              Kesejahteraan
             </p>
           </div>
         </div>
@@ -133,10 +137,11 @@ const TeamSection = () => {
           />
           <div className="mt-2 sm:mt-4">
             <h3 className="text-sm font-medium text-gray-800 sm:text-base lg:text-lg">
-              Louise Donadieu
+              Surahmat
             </h3>
             <p className="text-xs text-gray-600 sm:text-sm lg:text-base">
-              Support Consultant
+              Kepala Seksi <br />
+              Pelayanan
             </p>
           </div>
         </div>
@@ -151,10 +156,11 @@ const TeamSection = () => {
           />
           <div className="mt-2 sm:mt-4">
             <h3 className="text-sm font-medium text-gray-800 sm:text-base lg:text-lg">
-              Jeff Fisher
+              Edy Santoso
             </h3>
             <p className="text-xs text-gray-600 sm:text-sm lg:text-base">
-              Project Manager
+              Kepala Dusun <br />
+              Mentaun Kulon
             </p>
           </div>
         </div>
@@ -169,10 +175,49 @@ const TeamSection = () => {
           />
           <div className="mt-2 sm:mt-4">
             <h3 className="text-sm font-medium text-gray-800 sm:text-base lg:text-lg">
-              Sophia Harrington
+              Nurwahid
             </h3>
             <p className="text-xs text-gray-600 sm:text-sm lg:text-base">
-              Project Manager
+              Kepala Dusun <br />
+              Madugawe
+            </p>
+          </div>
+        </div>
+
+        <div className="text-center">
+          <Image
+            className="rounded-xl sm:size-48 lg:size-60 mx-auto"
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+            alt="Avatar"
+            width={320}
+            height={320}
+          />
+          <div className="mt-2 sm:mt-4">
+            <h3 className="text-sm font-medium text-gray-800 sm:text-base lg:text-lg">
+              Slamet Fauzi
+            </h3>
+            <p className="text-xs text-gray-600 sm:text-sm lg:text-base">
+              Staf Kepala Seksi <br />
+              Pemerintahan
+            </p>
+          </div>
+        </div>
+
+        <div className="text-center">
+          <Image
+            className="rounded-xl sm:size-48 lg:size-60 mx-auto"
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+            alt="Avatar"
+            width={320}
+            height={320}
+          />
+          <div className="mt-2 sm:mt-4">
+            <h3 className="text-sm font-medium text-gray-800 sm:text-base lg:text-lg">
+              Tamyis Mustolih
+            </h3>
+            <p className="text-xs text-gray-600 sm:text-sm lg:text-base">
+              Staf Kepala Seksi <br />
+              Kesejahteraan
             </p>
           </div>
         </div>
