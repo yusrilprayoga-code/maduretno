@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react'
 const Profile = () => {
   const [isPlaying, setIsPlaying] = useState(false)
 
-  // Extract video ID from YouTube URL
   const videoId = '-c3xZci-Pqc'
 
   return (
