@@ -105,7 +105,7 @@ export default function NavBar() {
                 <Link
                   className={`block py-2 pl-3 pr-4 rounded md:p-0 ${
                     pathname === item.href
-                      ? "text-white bg-lime-400 md:bg-transparent md:text-lime-500 underline underline-offset-4"
+                      ? "text-black bg-lime-400 md:bg-transparent md:text-lime-500 underline underline-offset-4"
                       : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-lime-500 hover:underline hover:underline-offset-4"
                   }`}
                   href={item.href}
