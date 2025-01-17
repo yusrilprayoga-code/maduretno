@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X } from "lucide-react";
+import { Menu, X } from 'lucide-react';
 
 interface NavItem {
   label: string;
@@ -27,32 +27,32 @@ export default function NavBar() {
   };
 
   return (
-    <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full py-7">
+    <header className="w-full py-4 md:py-7">
       <nav
-        className="relative max-w-7xl w-full flex flex-wrap md:grid md:grid-cols-12 basis-full items-center px-4 md:px-6 lg:px-8 mx-auto"
+        className="container mx-auto px-4 flex flex-wrap items-center justify-between"
         aria-label="Global"
       >
-        <div className="md:col-span-3">
+        <div className="flex items-center">
           <Link
             href="/"
             className="flex items-center gap-x-2 text-xl font-semibold focus:outline-none focus:opacity-80"
             aria-label="Maduretno"
           >
-            <div className="relative w-[50px] h-[50px] md:w-[60px] md:h-[60px] lg:w-[70px] lg:h-[70px]">
+            <div className="relative w-[40px] h-[40px] md:w-[50px] md:h-[50px] lg:w-[60px] lg:h-[60px]">
               <Image
                 src="https://cdn.digitaldesa.com/uploads/landing/logo-desa/kebumenkab.png"
                 alt="maduretno"
                 fill
                 className="object-contain"
-                sizes="(max-width: 768px) 50px, (max-width: 1024px) 60px, 70px"
+                sizes="(max-width: 768px) 40px, (max-width: 1024px) 50px, 60px"
                 priority
               />
             </div>
-            <span className="text-sm md:text-base lg:text-xl">Maduretno</span>
+            <span className="text-sm md:text-base lg:text-lg">Maduretno</span>
           </Link>
         </div>
 
-        <div className="flex items-center gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-3">
+        <div className="flex items-center gap-x-2 md:order-3">
           <a
             href="https://maduretno.kec-buluspesantren.kebumenkab.go.id/"
             target="_blank"
@@ -61,7 +61,7 @@ export default function NavBar() {
           >
             <button
               type="button"
-              className="py-2 px-3 inline-flex items-center gap-x-2 text-xs font-medium rounded-xl border border-gray-200 text-black hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+              className="py-2 px-3 text-xs font-medium rounded-xl border border-gray-200 text-black hover:bg-gray-100 transition"
             >
               Website Resmi
             </button>
@@ -70,11 +70,10 @@ export default function NavBar() {
             href="https://maduretno.kec-buluspesantren.kebumenkab.go.id/index.php/layanan/masuk"
             target="_blank"
             rel="noreferrer"
-            className="hidden sm:block"
           >
             <button
               type="button"
-              className="py-2 px-3 inline-flex items-center gap-x-2 text-xs font-medium rounded-xl border border-transparent bg-lime-400 text-black hover:bg-lime-500 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-lime-500"
+              className="py-2 px-3 text-xs font-medium rounded-xl border border-transparent bg-lime-400 text-black hover:bg-lime-500 transition focus:outline-none focus:ring-2 focus:ring-lime-500 focus:ring-offset-2"
             >
               Layanan Mandiri
             </button>
@@ -82,15 +81,15 @@ export default function NavBar() {
 
           <button
             type="button"
-            className="md:hidden inline-flex size-[38px] justify-center items-center rounded-xl border border-gray-200 text-black hover:bg-gray-100"
+            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
             onClick={toggleMenu}
             aria-expanded={isMenuOpen}
             aria-label="Toggle navigation"
           >
             {isMenuOpen ? (
-              <X className="size-4" />
+              <X className="w-6 h-6" />
             ) : (
-              <Menu className="size-4" />
+              <Menu className="w-6 h-6" />
             )}
           </button>
         </div>
@@ -98,26 +97,27 @@ export default function NavBar() {
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } overflow-hidden transition-all duration-300 basis-full grow md:block md:w-auto md:basis-auto md:order-2 md:col-span-6`}
+          } w-full md:block md:w-auto md:order-2`}
         >
-          <div className="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:justify-center md:items-center md:gap-y-0 md:gap-x-7 md:mt-0">
+          <ul className="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
             {navItems.map((item) => (
-              <div key={item.href}>
+              <li key={item.href}>
                 <Link
-                  className={`inline-block text-black hover:text-gray-600 hover:underline hover:underline-offset-4 ${
+                  className={`block py-2 pl-3 pr-4 rounded md:p-0 ${
                     pathname === item.href
-                      ? "font-bold underline underline-offset-4"
-                      : ""
+                      ? "text-white bg-lime-400 md:bg-transparent md:text-lime-500 underline underline-offset-4"
+                      : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-lime-500 hover:underline hover:underline-offset-4"
                   }`}
                   href={item.href}
                 >
                   {item.label}
                 </Link>
-              </div>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </nav>
     </header>
   );
 }
+
