@@ -53,7 +53,7 @@ export function Visi() {
             </h3>
           <div className="mb-8">
             <Image
-              src="https://kelilingpesonawisata.travel.blog/wp-content/uploads/2018/03/1521010934252.jpg"
+              src="/images/struktur.jpeg"
               alt="Avatar"
               width={320}
               height={320}

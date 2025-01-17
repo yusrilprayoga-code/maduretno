@@ -41,13 +41,13 @@ export default function Administrasi() {
               return (
                 <Card
                   key={index}
-                  className="p-4 flex items-center space-x-4 bg-blue-100/50 dark:bg-blue-950/50"
+                  className="p-4 flex items-center space-x-4 bg-lime-100/50 dark:bg-lime-950/50"
                 >
                   <div className="shrink-0">
-                    <Icon className="h-6 w-6 text-blue-600 dark:text-blue-400" />
+                    <Icon className="h-6 w-6 text-lime-600 dark:text-lime-400" />
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+                    <div className="text-2xl font-bold text-lime-600 dark:text-lime-400">
                       {stat.number}
                     </div>
                     <p className="text-sm text-gray-600 dark:text-gray-300">
