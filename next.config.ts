@@ -32,6 +32,15 @@ const nextConfig: NextConfig = {
       },
       {
         hostname: "kelilingpesonawisata.travel.blog"
+      },
+      {
+        hostname: "www.static-src.com"
+      },
+      {
+        hostname: "lahatpos.bacakoran.co"
+      },
+      {
+        hostname: "bag-sda.malangkab.go.id"
       }
     ],
   },
