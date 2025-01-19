@@ -1,15 +1,16 @@
-import React, { useEffect } from "react";
+import React, { RefObject, useEffect } from "react";
 
 export const useOutsideClick = (
-  ref: React.RefObject<HTMLDivElement>,
-  callback: Function
+  ref: RefObject<HTMLDivElement | null>, // Tetap mendukung ref yang mungkin null
+  callback: () => void
 ) => {
   useEffect(() => {
-    const listener = (event: any) => {
-      if (!ref.current || ref.current.contains(event.target)) {
+    const listener = (event: MouseEvent | TouchEvent) => {
+      // Pastikan ref ada dan elemen target tidak ada di dalam ref
+      if (!ref.current || ref.current.contains(event.target as Node)) {
         return;
       }
-      callback(event);
+      callback(); // Panggil callback jika klik di luar elemen
     };
 
     document.addEventListener("mousedown", listener);
