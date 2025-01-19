@@ -10,6 +10,7 @@ import {
   MailOpen,
 } from "lucide-react";
 import Image from "next/image";
+import { LegalDrawer } from "./legal-drawer";
 
 const Footer = () => {
   return (
@@ -166,15 +167,7 @@ const Footer = () => {
             Maduretno - Kebumen. All rights reserved.
           </p>
           <div className="mt-4 sm:mt-0">
-            <a
-              href="#"
-              className="text-sm text-gray-500 hover:text-gray-700 mr-4"
-            >
-              Privacy Policy
-            </a>
-            <a href="#" className="text-sm text-gray-500 hover:text-gray-700">
-              Terms of Service
-            </a>
+            <LegalDrawer />
           </div>
         </div>
       </div>
