@@ -11,12 +11,12 @@ import {
 } from "lucide-react";
 
 const stats = [
-  { number: "4.492", label: "Penduduk", icon: Users },
-  { number: "2.189", label: "Laki-Laki", icon: UserCircle },
-  { number: "2.303", label: "Perempuan", icon: UserCircle },
-  { number: "1.393", label: "Kepala Keluarga", icon: Home },
-  { number: "145", label: "Penduduk Sementara", icon: UserPlus },
-  { number: "1.780", label: "Mutasi Penduduk", icon: UserCog },
+  { number: "2.134", label: "Penduduk", icon: Users },
+  { number: "1.079", label: "Laki-Laki", icon: UserCircle },
+  { number: "1.055", label: "Perempuan", icon: UserCircle },
+  { number: "608", label: "Kepala Keluarga", icon: Home },
+  { number: "9", label: "RT", icon: UserPlus },
+  { number: "3", label: "RW", icon: UserCog },
 ];
 
 export default function Administrasi() {
