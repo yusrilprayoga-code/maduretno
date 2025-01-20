@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Website Desa Maduretno
 
-## Getting Started
+## Deskripsi
+Website resmi Desa Maduretno yang dirancang untuk memberikan informasi komprehensif tentang desa kepada masyarakat. Website ini dibangun menggunakan Next.js untuk memberikan pengalaman pengguna yang cepat dan responsif, dengan fokus pada kemudahan akses informasi desa.
 
-First, run the development server:
+## Fitur Utama
+- **Profil Desa**: Informasi lengkap tentang sejarah, visi-misi, dan struktur pemerintahan desa
+- **Listing**: Peta Desa
+- **UMKM**: Showcase UMKM dan potensi wisata desa
+- **Infografis**: Data demografi dan statistik penting tentang desa
 
+## Persyaratan Sistem
+Untuk pengembangan lokal, pastikan perangkat Anda memiliki:
+- **Node.js** (versi 18.0.0 atau lebih baru) - [Download](https://nodejs.org)
+- **npm** (v8.0.0+) atau **yarn** (v1.22.0+) sebagai package manager
+- **Git** untuk version control - [Download](https://git-scm.com)
+
+## Instalasi
+
+### 1. Clone Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yusrilprayoga-code/maduretno.git
+cd maduretno
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Instalasi Dependensi
+```bash
+npm install
+# atau
+yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Menjalankan Website Secara Lokal
+```bash
+npm run dev
+# atau
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Akses website melalui browser di:
+```
+http://localhost:3000
+```
 
-## Learn More
+### 4. Build untuk Produksi
+```bash
+npm run build
+# atau
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment di Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Website ini di-deploy menggunakan Vercel. Untuk melakukan deployment:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push kode ke repository GitHub
+2. Login ke [Vercel](https://vercel.com)
+3. Import repository GitHub Anda
+4. Vercel akan otomatis mendeteksi konfigurasi Next.js
+5. Klik Deploy
 
-## Deploy on Vercel
+Website dapat diakses di: [https://maduretno.vercel.app](https://maduretno.vercel.app)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Teknologi yang Digunakan
+- **Framework**: Next.js 15
+- **UI/Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Deployment**: Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Struktur Folder
+```
+maduretno/
+├── components/         # Komponen React yang dapat digunakan kembali
+├── pages/             # Halaman-halaman website
+├── public/            # Asset statis (gambar, favicon, dll)
+├── styles/            # File CSS dan konfigurasi Tailwind
+├── data/             # Data statis dalam format JSON/MD
+└── utils/            # Fungsi-fungsi utilitas
+```
+
+## Pengembangan Lokal
+1. Fork repository
+2. Buat branch fitur baru (`git checkout -b feature/NewFeature`)
+3. Commit perubahan (`git commit -m 'Add NewFeature'`)
+4. Push ke branch (`git push origin feature/NewFeature`)
+5. Buat Pull Request
+
+## Pemeliharaan
+Website ini dikelola oleh Tim IT Desa Maduretno. Untuk pertanyaan atau dukungan, silakan hubungi:
+- Email: desamaduretno10@gmail.com
+- WhatsApp: 085801987426
+
+## Lisensi
+Hak Cipta © 2025 KKN AA.82.121 & KKN AA.82.122 - Desa Maduretno - Kebumen. All rights reserved. Seluruh hak cipta dilindungi undang-undang.
