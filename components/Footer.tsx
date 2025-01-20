@@ -8,6 +8,7 @@ import {
   MapPin,
   Phone,
   MailOpen,
+  MapPinIcon,
 } from "lucide-react";
 import Image from "next/image";
 import { LegalDrawer } from "./legal-drawer";
@@ -142,7 +143,7 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2">
               <li className="flex items-center">
-                <MapPin size={36} className="mr-2 text-gray-400" />
+                <MapPinIcon size={16} className="mr-2 text-gray-400" />
                 <span>Jl Desa Maduretno Rt 04 Rw 01, Kebumen, Jawa Tengah</span>
               </li>
               <li className="flex items-center">

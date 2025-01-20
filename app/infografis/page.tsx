@@ -21,13 +21,13 @@ const page = () => {
 
       <div
         className="
-        max-w-[85rem] px-4 py-6 sm:px-6 lg:px-8 lg:py-14 mx-auto
+        max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto
       "
       >
         {/* image full size */}
         <Image
           className="rounded-xl"
-          src="/images/KecBuluspesantren.png"
+          src="/images/peta-desa.png"
           alt="Avatar"
           width={1200}
           height={320}
