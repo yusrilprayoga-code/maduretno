@@ -91,4 +91,8 @@ Website ini dikelola oleh Tim IT Desa Maduretno. Untuk pertanyaan atau dukungan,
 - WhatsApp: 085801987426
 
 ## Lisensi
+<<<<<<< HEAD
 Hak Cipta © 2025 KKN AA.82.121 & KKN AA.82.122 - Desa Maduretno - Kebumen. All rights reserved. Seluruh hak cipta dilindungi undang-undang.
+=======
+Hak Cipta © 2025 KKN AA.82.121 & KKN AA.82.122 - Desa Maduretno - Kebumen. All rights reserved. Seluruh hak cipta dilindungi undang-undang.
+>>>>>>> 46c641ee2486467b07182e2fa0493b34882df811
