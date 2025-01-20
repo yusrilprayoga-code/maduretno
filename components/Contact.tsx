@@ -122,7 +122,7 @@ const Contact = () => {
                       className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                       href="mailto:example@site.so"
                     >
-                      (0287) 383349
+                      085801987426
                     </a>
                   </p>
                 </div>
