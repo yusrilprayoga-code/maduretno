@@ -24,12 +24,11 @@ export const products = [
     thumbnail:
       "/images/movie-time.jpg",
   },
-
   {
-    title: "Musyawarah Masyarakat Desa 2",
+    title: "Lomba Adzan dan Kaligrafi 0",
     link: "/",
     thumbnail:
-      "/images/mmd-desa.jpg",
+      "/images/lomba-adzan.jpg",
   },
   {
     title: "Movie Time 2",
