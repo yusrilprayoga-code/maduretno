@@ -31,7 +31,7 @@ export default function HeroCarousel() {
     <main id="content">
       {/* Judul Produk UMKM */}
       <div className="flex justify-center items-center h-24 bg-gray-100">
-        <h1 className="text-3xl font-bold text-gray-800">Product UMKM</h1>
+        <h1 className="text-3xl font-bold text-gray-800">Produk UMKM</h1>
       </div>
       <div className="px-4 lg:px-8">
         <Carousel className="relative">
