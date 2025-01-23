@@ -7,35 +7,35 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Musyawarah Masyarakat Desa 1",
+    title: "Musyawarah Masyarakat Desa",
     link: "/",
     thumbnail:
       "/images/MMD.JPG",
   },
   {
-    title: "Posyandu Anggrek 1",
+    title: "Lomba Adzan dan Kaligrafi",
     link: "/",
     thumbnail:
-      "/images/posyandu-anggrek.jpg",
+      "/images/lomba-adzan.jpg",
   },
   {
-    title: "Posyandu Anggrek 2",
+    title: "Movie Time",
     link: "/",
     thumbnail:
-      "/images/posyandu-anggrek.jpg",
+      "/images/movie-time.jpg",
   },
 
   {
     title: "Musyawarah Masyarakat Desa 2",
     link: "/",
     thumbnail:
-      "/images/MMD.JPG",
+      "/images/mmd-desa.jpg",
   },
   {
-    title: "Posyandu Anggrek 3",
+    title: "Movie Time 2",
     link: "/",
     thumbnail:
-      "/images/posyandu-anggrek.jpg",
+      "/images/movie-time.jpg",
   },
   {
     title: "Musyawarah Masyarakat Desa 3",
@@ -63,16 +63,16 @@ export const products = [
       "/images/posyandu-anggrek.jpg",
   },
   {
-    title: "Musyawarah Masyarakat Desa 5",
+    title: "Lomba Adzan dan Kaligrafi 2",
     link: "/",
     thumbnail:
-      "/images/MMD.JPG",
+      "/images/lomba-adzan.jpg",
   },
   {
-    title: "Posyandu Anggrek 6",
+    title: "Movie Time 4",
     link: "/",
     thumbnail:
-      "/images/posyandu-anggrek.jpg",
+      "/images/movie-time.jpg",
   },
 
   {
@@ -88,15 +88,15 @@ export const products = [
       "/images/posyandu-anggrek.jpg",
   },
   {
-    title: "Musyawarah Masyarakat Desa 7",
+    title: "Lomba Adzan dan Kaligrafi 1",
     link: "/",
     thumbnail:
-      "/images/MMD.JPG",
+      "/images/lomba-adzan.jpg",
   },
   {
-    title: "Posyandu Anggrek 8",
+    title: "Movie Time 3",
     link: "/",
     thumbnail:
-      "/images/posyandu-anggrek.jpg",
+      "/images/movie-time.jpg",
   },
 ];

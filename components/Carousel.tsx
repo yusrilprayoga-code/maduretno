@@ -7,28 +7,32 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const carouselItems = [
   {
-    image: "/images/posyandu-anggrek.jpg",
-    alt: "Posyandu Anggrek",
-    title: "Posyandu Anggrek",
-    description: "Posyandu Anggrek is a health center for children",
+    image: "/images/brekele-duta.jpeg",
+    alt: "Brekele Duta",
+    title: "Duta Muda Snack Brekele",
+    description: "Duta Muda Snack Brekele is a snack made from Maduretno",
   },
   {
-    image: "/images/MMD.JPG",
-    alt: "Musyawarah Masyarakat Desa",
-    title: "Musyawarah Masyarakat Desa",
-    description: "Musyawarah Masyarakat Desa is a village meeting",
+    image: "https://bag-sda.malangkab.go.id/uploads/artikel/bag-sda-opd@3507-Web%20Cocopeat.jpg",
+    alt: "Cocopeat",
+    title: "Cocopeat",
+    description: "Cocopeat is a natural fiber made from coconut husks",
   },
   {
-    image: "/images/posyandu-anggrek.jpg",
-    alt: "Posyandu Anggrek",
-    title: "Posyandu Anggrek",
-    description: "Posyandu Anggrek is a health center for children",
+    image: "https://lahatpos.bacakoran.co/upload/2afe68244a327cbe65cdfd09d6b83d0d.jpg",
+    alt: "Jambu Kristal",
+    title: "Jambu Kristal",
+    description: "Jambu Kristal is a fruit that is rich in vitamins and minerals",
   },
 ]
 
 export default function HeroCarousel() {
   return (
     <main id="content">
+      {/* Judul Produk UMKM */}
+      <div className="flex justify-center items-center h-24 bg-gray-100">
+        <h1 className="text-3xl font-bold text-gray-800">Product UMKM</h1>
+      </div>
       <div className="px-4 lg:px-8">
         <Carousel className="relative">
           <CarouselContent className="h-[30rem] md:h-[calc(100vh-106px)]">

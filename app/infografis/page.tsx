@@ -32,23 +32,6 @@ const page = () => {
           width={1200}
           height={320}
         />
-        <div className="mt-2 sm:mt-4">
-          <h3 className="text-sm font-medium text-gray-800 sm:text-base lg:text-lg">
-            Kecamatan Buluspesantren
-          </h3>
-          <ul className="text-xs text-gray-600 sm:text-sm lg:text-base">
-            <li>Batas Utara: Desa/Kelurahan Indrosari</li>
-            <li>Batas Timur: Desa Bocor</li>
-            <li>Batas Selatan: Desa Setrojenar</li>
-            <li>Batas Barat: Desa Waluyo</li>
-            <ul>
-              <li>Desa Maduretno</li>
-              <li>Desa Bocor</li>
-              <li>Desa Setrojenar</li>
-              <li>Desa Waluyo</li>
-            </ul>
-          </ul>
-        </div>
       </div>
 
       {/* keadaan Iklim */}
