@@ -53,7 +53,7 @@ export function Visi() {
             </h3>
           <div className="mb-8">
             <Image
-              src="/images/struktur.jpeg"
+              src="/images/organisasi.png"
               alt="Avatar"
               width={320}
               height={320}

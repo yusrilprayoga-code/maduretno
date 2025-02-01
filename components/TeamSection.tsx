@@ -17,8 +17,10 @@ const TeamSection = () => {
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
         <div className="text-center">
           <Image
-            className="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover"
-            src="https://maduretno.kec-buluspesantren.kebumenkab.go.id/uploads/logo/12042021020029-Maduretno-Kebumen.jpg"
+            className="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover
+            object-center
+            "
+            src="/images/beni.jpg"
             alt="Avatar"
             width={320}
             height={320}
@@ -35,8 +37,8 @@ const TeamSection = () => {
 
         <div className="text-center">
           <Image
-            className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+            className="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-center"
+            src="/images/sekdes.jpg"
             alt="Avatar"
             width={320}
             height={320}
@@ -53,8 +55,8 @@ const TeamSection = () => {
 
         <div className="text-center">
           <Image
-            className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+            className="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-center"
+            src="/images/sundariyah.jpg"
             alt="Avatar"
             width={320}
             height={320}
@@ -72,8 +74,8 @@ const TeamSection = () => {
 
         <div className="text-center">
           <Image
-            className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+            className="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-center"
+            src="/images/widotomo.jpg"
             alt="Avatar"
             width={320}
             height={320}
@@ -91,8 +93,8 @@ const TeamSection = () => {
 
         <div className="text-center">
           <Image
-            className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+            className="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-center"
+            src="/images/badriyono.jpg"
             alt="Avatar"
             width={320}
             height={320}
@@ -110,8 +112,8 @@ const TeamSection = () => {
 
         <div className="text-center">
           <Image
-            className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+            className="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-center"
+            src="/images/parwono.jpg"
             alt="Avatar"
             height={320}
             width={320}
@@ -129,8 +131,8 @@ const TeamSection = () => {
 
         <div className="text-center">
           <Image
-            className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+            className="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-center"
+            src="/images/surahmat.jpg"
             alt="Avatar"
             width={320}
             height={320}
@@ -148,8 +150,8 @@ const TeamSection = () => {
 
         <div className="text-center">
           <Image
-            className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+            className="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-center"
+            src="/images/edy.jpg"
             alt="Avatar"
             width={320}
             height={320}
@@ -167,8 +169,8 @@ const TeamSection = () => {
 
         <div className="text-center">
           <Image
-            className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+            className="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-center"
+            src="/images/nurwahid.jpg"
             alt="Avatar"
             width={320}
             height={320}
@@ -186,8 +188,8 @@ const TeamSection = () => {
 
         <div className="text-center">
           <Image
-            className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+            className="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-center"
+            src="/images/slamet.jpg"
             alt="Avatar"
             width={320}
             height={320}
@@ -205,8 +207,8 @@ const TeamSection = () => {
 
         <div className="text-center">
           <Image
-            className="rounded-xl sm:size-48 lg:size-60 mx-auto"
-            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+            className="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-center"
+            src="/images/tamyis.png"
             alt="Avatar"
             width={320}
             height={320}
